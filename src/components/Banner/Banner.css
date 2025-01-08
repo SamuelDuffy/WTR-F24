@@ -1,0 +1,11 @@
+.banner {
+    /* display: flex; */
+    display: flex;
+    width: max-content;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #E3867D;
+    color: #962E2A;
+    margin: 1% 10% 1% 10%;
+    white-space: nowrap;
+}

@@ -1,0 +1,9 @@
+.Multi {
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-evenly;
+  }
+  
+  .MultiItem {
+    width: 30%;
+  }
