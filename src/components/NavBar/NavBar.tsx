@@ -1,5 +1,4 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom";
+import { BrowserRouter as Routes, NavLink } from "react-router-dom";
 
 import './NavBar.css'
 

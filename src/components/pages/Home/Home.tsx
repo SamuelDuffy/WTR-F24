@@ -1,4 +1,3 @@
-import React from 'react'
 import Multi from '../../Multi/Multi'
 
 const Home = () => {

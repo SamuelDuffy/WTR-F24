@@ -1,4 +1,3 @@
-import React from 'react'
 import {MultiItemProps} from './MuliItem'
 import MultiItem from './MuliItem'
 import './Mutli.css'

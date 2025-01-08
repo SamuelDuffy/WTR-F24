@@ -1,4 +1,3 @@
-import React from 'react'
 import './Mutli.css'
 
 export interface MultiItemProps {
