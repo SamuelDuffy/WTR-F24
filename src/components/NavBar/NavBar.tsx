@@ -1,6 +1,5 @@
-import { BrowserRouter as Routes, NavLink } from "react-router-dom";
-
-import './NavBar.css'
+import { NavLink } from "react-router-dom";
+import './NavBar.css';
 
 const NavBar = () => {
   return (
@@ -9,7 +8,7 @@ const NavBar = () => {
       <NavLink to="/experience" className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}>Experience</NavLink>
       <NavLink to="/side-quests" className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}>Side Quests</NavLink>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
