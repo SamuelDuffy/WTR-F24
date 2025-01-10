@@ -7,3 +7,13 @@
   .MultiItem {
     width: 30%;
   }
+
+@media (max-width: 768px) {
+  .Multi{
+    display: block;
+  }
+
+  .MultiItem {
+    width: 100%;
+  }
+}

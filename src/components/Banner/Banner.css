@@ -6,6 +6,35 @@
     flex-direction: column;
     background-color: #E3867D;
     color: #962E2A;
-    margin: 1% 10% 1% 10%;
+    margin: 1em 9em 1em 8em;
     white-space: nowrap;
+}
+
+h1{
+    font-size: 2em;
+    font-weight:'bold';
+    margin: 0.67em 0em 0em 0em
+}
+
+@media (max-width: 768px) {
+
+    .banner{
+        display: block;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: auto;
+        /* width: 100%; */
+    }
+
+    h1{
+        font-size: 1.5em;
+        margin-top: 0.67em;
+    }
+
+    /* .box{
+        padding: 0;
+    } */
 }

@@ -8,19 +8,19 @@ html, body {
 }
 
 .page{
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 1%;
+  padding-left: 8em;
+  padding-right: 8em;
+  padding-top: 1em;
   color: #962E2A;
 }
 
 .box {
-  background-color: #edb0ab;
+  background-color: #fbebea;
   border-color: #962E2A;
   border-width: 3px;
   border-style: solid;
   border-radius: 10px 10px 10px 10px;
-  padding: 0.2% 1% 0.2% 1%;
+  padding: 0.2em 1em 0.2em 1em;
 }
 
 hr{
@@ -35,8 +35,8 @@ hr{
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
-  margin:0.5%;
-  padding: 0.2% 0.5% 0.2% 0.5%;
+  margin:0.3em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -89,4 +89,45 @@ hr{
   border-radius: 10px; /* Rounded corners */
   object-fit: cover; /* Make sure the image covers the area */
   margin-bottom: 20px;
+}
+
+.imagehalf-devil{
+  flex: 1 1 35%; /* Image takes up 35% of available space */
+  max-width: 20%; /* Ensure image width is capped at 35% of the container */
+  width: 100%; /* Ensure the image respects max-width */
+  height: auto; /* Maintain aspect ratio */
+  border: 3px solid #962E2A; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  object-fit: cover; /* Make sure the image covers the area */
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .page{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+  }
+
+  .box{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .text-and-image {
+    display: block;
+  }
+
+  .imagehalf{
+    max-width: 100%;
+  }
+
+  .imagehalf-devil{
+    max-width: 100%;
+  }
+
+  .nav-link {
+    border-radius: 7px 7px 7px 7px;
+  }
 }

@@ -105,7 +105,7 @@ const Home = () => {
                 These practices are of course standard at bigger companies to keep everyone on the same page, so if you expect the sort of hyper-productivity found at startups, don't.
               </p>
             </div>
-            <img className='imagehalf' style={{maxWidth:"20%"}} src={Devil}></img>
+            <img className='imagehalf-devil' src={Devil}></img>
           </div>
 
         </div>
