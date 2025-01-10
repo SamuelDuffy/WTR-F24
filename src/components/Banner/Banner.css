@@ -19,12 +19,14 @@ h1{
 @media (max-width: 768px) {
 
     .banner{
-        display: block;
+        justify-content: center;
+        align-items: center;
+        /* display: block; */
         margin: 0;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 1%;
-        padding-bottom: 1%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
         width: auto;
         /* width: 100%; */
     }
