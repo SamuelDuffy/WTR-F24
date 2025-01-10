@@ -24,7 +24,7 @@ const SideQuests = () => {
       <div className='box'>
         <h3>Neetcode</h3>
         <p>
-          Did more neetcode. God I really hate these. I can't wait until AI nukes software engineering so these things will get out of interviews. 
+          Did more Neetcode. Not a huge fan of these. 
         </p>
       </div>
 
@@ -42,9 +42,11 @@ const SideQuests = () => {
       <div className='box'>
         <h3>Calc 2</h3>
         <p>
-          Read through all the notes of the calc 2 class I'm taking right after the work term. I've historically kinda sucked at Math so just a lil safety net.
+          Read through all the notes of the calc 2 class I'm taking after the work term. I've historically kinda sucked at Math so just a lil safety net.
         </p>
       </div>
+
+      <br></br>
 
     </div>
   )

@@ -45,3 +45,48 @@ hr{
   background-color: white;
   color: #962E2A;
 }
+
+.middleimage {
+  display: block; /* Ensures the image is treated as a block element */
+  margin: auto; /* Centers the image horizontally and vertically */
+  max-width: 90%; /* Ensures the image fits inside the parent, leaving some margin */
+  max-height: 90%; /* Ensures the image fits inside the parent vertically */
+  object-fit: contain; /* Ensures the image scales proportionally without cropping */
+  background-color: #edb0ab;
+  border-color: #962E2A;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.text-and-image {
+  display: flex;
+  align-items: flex-start; /* Vertically align the items */
+  justify-content: space-between; /* Spread out text and image */
+  gap: 20px; /* Add some space between text and image */
+  flex-wrap: nowrap; /* Ensure that the items do not wrap */
+  width: 100%;
+}
+
+/* Text section */
+.texthalf {
+  flex: 1 1 60%; /* Allow text section to take up 60% of available space */
+  padding: 0px 20px 20px 0px; /* Add padding for spacing */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+.texthalf > p {
+  margin-top: 0px;
+}
+
+/* Image section */
+.imagehalf {
+  flex: 1 1 35%; /* Image takes up 35% of available space */
+  max-width: 35%; /* Ensure image width is capped at 35% of the container */
+  width: 100%; /* Ensure the image respects max-width */
+  height: auto; /* Maintain aspect ratio */
+  border: 3px solid #962E2A; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  object-fit: cover; /* Make sure the image covers the area */
+  margin-bottom: 20px;
+}
