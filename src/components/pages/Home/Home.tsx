@@ -1,5 +1,4 @@
 import Multi from '../../Multi/Multi'
-import { Link } from 'react-router-dom';
 import Entrance from './assets/Entrance.jpg'
 import Devil from './assets/Devil.png'
 
