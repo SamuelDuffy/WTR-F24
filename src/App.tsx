@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import TopBanner from './components/Banner/Banner'
 import NavBar from './components/NavBar/NavBar'
 import Home from './components/pages/Home/Home';
