@@ -44,7 +44,7 @@ const Home = () => {
           </p>
           <p>
             On this page I will fulfill the basic elements of a Work Term Report as listed in the guide, such as my goals, description of the job, and conclusions.
-            On the <Link to="/WTR-F24/experience">experience</Link> page I will recount the specific tasks I undertook and the problems I overcame, and on the <Link to="/WTR-F24/side-quests">side quests</Link> page I will talk about the other interesting things I learned during my time at this position.
+            On the <a href="#experience">Experience</a> page I will recount the specific tasks I undertook and the problems I overcame, and on the <a href="#side-quests">Side Quests</a> page I will talk about the other interesting things I learned during my time at this position.
           </p>
         </div>
         <br></br>
@@ -60,7 +60,7 @@ const Home = () => {
             </p>
             <p>
               My main task was developing and integrating an ML system to detect anomalies in the electrical current of robot arms, but I also did some work relating to AGVs (Automated Guided Vehicles) and a company event called the Innovation Showcase.
-              I will leave the specifics to <Link to="/WTR-F24/experience">experience</Link>. 
+              I will leave the specifics to <a href="#experience">Experience</a>. 
             </p>
           </div>
           <img className='imagehalf' src={Entrance}></img>
