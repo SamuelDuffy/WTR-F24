@@ -34,7 +34,7 @@ const Home = () => {
   ]
 
   return (
-    <div className="page">
+    <div className="page" id = 'home'>
 
         <div className='box'>
           <h3>Introduction</h3>

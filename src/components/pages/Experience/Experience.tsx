@@ -7,7 +7,13 @@ import RollingAverage from './assets/RollingAverage.png'
 
 const Experience = () => {
   return (
-    <div className="page">
+    <div className="page" id="experience">
+
+      <div style={{display:'flex', justifyContent:'center'}} className='box'>
+      <h1 style={{marginBottom:'0.67em'}}>Experience</h1>
+      </div>
+      <br></br>
+
       <div className='box'>
         <h2>CAT</h2>
         <p>

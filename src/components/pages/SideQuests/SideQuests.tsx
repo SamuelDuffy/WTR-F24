@@ -1,7 +1,13 @@
 
 const SideQuests = () => {
   return (
-    <div className="page">
+    <div className="page" id="side-quests">
+
+      <div style={{display:'flex', justifyContent:'center'}} className='box'>
+        <h1 style={{marginBottom:'0.67em'}}>Side Quests</h1>
+      </div>
+      <br></br>
+
       <div className='box'>
       <h2>What</h2>
       <p>

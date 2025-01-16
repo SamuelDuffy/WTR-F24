@@ -11,11 +11,9 @@ const App = () => {
       <div>
         <TopBanner />
         <NavBar />
-        <Routes>
-          <Route path="/WTR-F24/" element={<Home />} />
-          <Route path="/WTR-F24/experience" element={<Experience />} />
-          <Route path="/WTR-F24/side-quests" element={<SideQuests />} />
-        </Routes>
+        <Home />
+        <Experience />
+        <SideQuests />
       </div>
     </Router>
     

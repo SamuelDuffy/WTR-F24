@@ -2,7 +2,9 @@
     background-color: #962E2A;
     padding-left: 9em;
     padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    padding-top: 0.5em;   
+    position: sticky;  /* Make the navbar sticky */
+    top: 0; 
 }
 
 @media (max-width: 768px) {
